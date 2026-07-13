@@ -1,0 +1,170 @@
+{
+  "n_pairs": 300,
+  "overall": {
+    "experience_mismatch": 0.11,
+    "seniority_mismatch": 0.1233,
+    "missing_core_skills": 0.6567,
+    "hallucinated_skills": 0.0,
+    "awkward_language": 0.5667,
+    "low_skills_overlap": 0.3167
+  },
+  "avg_jaccard_by_fit": {
+    "excellent": 0.7921,
+    "good": 0.5623,
+    "mismatch": 0.0549,
+    "partial": 0.3888,
+    "poor": 0.2333
+  },
+  "by_fit_level": {
+    "excellent": {
+      "experience_mismatch": 0.0,
+      "seniority_mismatch": 0.02,
+      "missing_core_skills": 0.18,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.6,
+      "low_skills_overlap": 0.0
+    },
+    "good": {
+      "experience_mismatch": 0.0,
+      "seniority_mismatch": 0.04,
+      "missing_core_skills": 0.74,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.72,
+      "low_skills_overlap": 0.0
+    },
+    "mismatch": {
+      "experience_mismatch": 0.44,
+      "seniority_mismatch": 0.38,
+      "missing_core_skills": 1.0,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.46,
+      "low_skills_overlap": 1.0
+    },
+    "partial": {
+      "experience_mismatch": 0.1,
+      "seniority_mismatch": 0.06,
+      "missing_core_skills": 0.86,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.48,
+      "low_skills_overlap": 0.02
+    },
+    "poor": {
+      "experience_mismatch": 0.12,
+      "seniority_mismatch": 0.22,
+      "missing_core_skills": 0.98,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.54,
+      "low_skills_overlap": 0.88
+    }
+  },
+  "by_template": {
+    "achievement": {
+      "experience_mismatch": 0.1333,
+      "seniority_mismatch": 0.15,
+      "missing_core_skills": 0.7,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.8333,
+      "low_skills_overlap": 0.3333
+    },
+    "career_changer": {
+      "experience_mismatch": 0.05,
+      "seniority_mismatch": 0.05,
+      "missing_core_skills": 0.6833,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.4,
+      "low_skills_overlap": 0.3167
+    },
+    "casual": {
+      "experience_mismatch": 0.15,
+      "seniority_mismatch": 0.15,
+      "missing_core_skills": 0.6333,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.5667,
+      "low_skills_overlap": 0.3167
+    },
+    "formal": {
+      "experience_mismatch": 0.15,
+      "seniority_mismatch": 0.15,
+      "missing_core_skills": 0.65,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.55,
+      "low_skills_overlap": 0.3
+    },
+    "technical": {
+      "experience_mismatch": 0.0667,
+      "seniority_mismatch": 0.1167,
+      "missing_core_skills": 0.6167,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.4833,
+      "low_skills_overlap": 0.3167
+    }
+  },
+  "by_niche": {
+    "False": {
+      "experience_mismatch": 0.0917,
+      "seniority_mismatch": 0.1375,
+      "missing_core_skills": 0.6625,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.5667,
+      "low_skills_overlap": 0.3083
+    },
+    "True": {
+      "experience_mismatch": 0.1833,
+      "seniority_mismatch": 0.0667,
+      "missing_core_skills": 0.6333,
+      "hallucinated_skills": 0.0,
+      "awkward_language": 0.5667,
+      "low_skills_overlap": 0.35
+    }
+  },
+  "correlation_matrix": {
+    "experience_mismatch": {
+      "experience_mismatch": 1.0,
+      "seniority_mismatch": 0.354,
+      "missing_core_skills": 0.254,
+      "hallucinated_skills": NaN,
+      "awkward_language": -0.08,
+      "low_skills_overlap": 0.425
+    },
+    "seniority_mismatch": {
+      "experience_mismatch": 0.354,
+      "seniority_mismatch": 1.0,
+      "missing_core_skills": 0.229,
+      "hallucinated_skills": NaN,
+      "awkward_language": 0.021,
+      "low_skills_overlap": 0.377
+    },
+    "missing_core_skills": {
+      "experience_mismatch": 0.254,
+      "seniority_mismatch": 0.229,
+      "missing_core_skills": 1.0,
+      "hallucinated_skills": NaN,
+      "awkward_language": -0.051,
+      "low_skills_overlap": 0.492
+    },
+    "hallucinated_skills": {
+      "experience_mismatch": NaN,
+      "seniority_mismatch": NaN,
+      "missing_core_skills": NaN,
+      "hallucinated_skills": NaN,
+      "awkward_language": NaN,
+      "low_skills_overlap": NaN
+    },
+    "awkward_language": {
+      "experience_mismatch": -0.08,
+      "seniority_mismatch": 0.021,
+      "missing_core_skills": -0.051,
+      "hallucinated_skills": NaN,
+      "awkward_language": 1.0,
+      "low_skills_overlap": -0.113
+    },
+    "low_skills_overlap": {
+      "experience_mismatch": 0.425,
+      "seniority_mismatch": 0.377,
+      "missing_core_skills": 0.492,
+      "hallucinated_skills": NaN,
+      "awkward_language": -0.113,
+      "low_skills_overlap": 1.0
+    }
+  }
+}

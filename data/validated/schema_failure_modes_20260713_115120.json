@@ -1,0 +1,13 @@
+{
+  "by_category": {
+    "format_violation": 8
+  },
+  "by_field": {
+    "experience.0.end_date": 8
+  },
+  "field_by_category": {
+    "experience.0.end_date": {
+      "format_violation": 8
+    }
+  }
+}

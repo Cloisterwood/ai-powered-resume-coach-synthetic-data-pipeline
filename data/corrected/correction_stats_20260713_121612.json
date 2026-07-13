@@ -1,0 +1,10 @@
+{
+  "total": 8,
+  "corrected": 8,
+  "failed": 0,
+  "attempts_histogram": {
+    "0": 8
+  },
+  "failure_reasons": {},
+  "success_rate": 1.0
+}

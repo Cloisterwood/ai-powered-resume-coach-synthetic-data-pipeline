@@ -1,0 +1,56 @@
+{
+  "generated": {
+    "jobs": 50,
+    "resumes": 300,
+    "pairs": 300
+  },
+  "validation": {
+    "total_records": 350,
+    "valid_records": 342,
+    "success_rate": 0.9771,
+    "error_categories": {
+      "format_violation": 8
+    }
+  },
+  "failure_mode_distribution": {
+    "experience_mismatch": 0.11,
+    "seniority_mismatch": 0.1233,
+    "missing_core_skills": 0.6567,
+    "hallucinated_skills": 0.0,
+    "awkward_language": 0.5667,
+    "low_skills_overlap": 0.3167
+  },
+  "correction": {
+    "total": 8,
+    "corrected": 8,
+    "failed": 0,
+    "attempts_histogram": {
+      "0": 8
+    },
+    "failure_reasons": {},
+    "success_rate": 1.0
+  },
+  "fit_level_counts": {
+    "excellent": 100,
+    "good": 50,
+    "partial": 50,
+    "poor": 50,
+    "mismatch": 50
+  },
+  "template_counts": {
+    "formal": 60,
+    "casual": 60,
+    "technical": 60,
+    "achievement": 60,
+    "career_changer": 60
+  },
+  "stage_timings_seconds": {
+    "generate": 2085.4,
+    "validate": 0.1,
+    "correct": 41.4,
+    "label": 0.2,
+    "analyze": 0.0,
+    "visualize": 0.6
+  },
+  "timestamp": "20260713_121633"
+}
